@@ -1,56 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22493" started-at="2016-08-24T19:13:58Z" finished-at="2016-08-24T19:14:21Z">
+  <suite name="Default suite" duration-ms="155037" started-at="2016-08-25T03:48:36Z" finished-at="2016-08-25T03:51:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22493" started-at="2016-08-24T19:13:58Z" finished-at="2016-08-24T19:14:21Z">
-      <class name="CodeExcercise._testCase2">
-        <test-method status="FAIL" signature="test2()[pri:0, instance:CodeExcercise._testCase2@1794d431]" name="test2" duration-ms="22397" started-at="2016-08-24T15:13:58Z" finished-at="2016-08-24T15:14:21Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Mobile Integration Workgroup] but found [Mobile integration Workgroup]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Mobile Integration Workgroup] but found [Mobile integration Workgroup]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at org.testng.Assert.assertEquals(Assert.java:188)
-	at CodeExcercise._testCase2.test2(_testCase2.java:54)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+    <test name="Default test" duration-ms="155037" started-at="2016-08-25T03:48:36Z" finished-at="2016-08-25T03:51:11Z">
+      <class name="CodeExcercise._testCase3">
+        <test-method status="PASS" signature="androidConfig()[pri:0, instance:CodeExcercise._testCase3@20e2cbe0]" name="androidConfig" duration-ms="155010" started-at="2016-08-24T23:48:36Z" finished-at="2016-08-24T23:51:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- CodeExcercise._testCase2 -->
+        </test-method> <!-- androidConfig -->
+      </class> <!-- CodeExcercise._testCase3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

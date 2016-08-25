@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="CodeExcercise._testCase2">
+      <class name="CodeExcercise._testCase3">
         <methods>
-          <include name="test2"/>
+          <include name="androidConfig"/>
         </methods>
-      </class> <!-- CodeExcercise._testCase2 -->
+      </class> <!-- CodeExcercise._testCase3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

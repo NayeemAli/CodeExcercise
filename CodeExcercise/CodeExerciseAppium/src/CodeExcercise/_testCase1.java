@@ -19,7 +19,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class _testCase1 {
 	@Test
-	 public  void test1() throws Throwable{
+	 public  void test1() throws Throwable{ 
 		String URs="http://www.google.com";System.out.println("Navigation set for Google.com");
 
 		//Set Capability as Required

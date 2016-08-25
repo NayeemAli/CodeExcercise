@@ -42,9 +42,14 @@ public class _testCase3 {
 			   
 	  //3-//Starting Test
 			    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);System.out.println("Implicit Wait set to 20 seconds");
-			    driver.findElement(By.xpath("//android.widget.Button[@text='Skip']")).click();System.out.println("Clicked Skip Button");
-			    driver.findElement(By.xpath("//android.widget.Button[@text='OK']")).click();System.out.println("Clicked OK");
-			    driver.findElement(By.xpath("//android.widget.Button[@text='LOG IN']")).click();System.out.println("Clicked Login");
+			    try {
+			    	 driver.findElement(By.xpath("//android.widget.Button[@text='Skip']")).click();System.out.println("Clicked Skip Button");
+					    driver.findElement(By.xpath("//android.widget.Button[@text='OK']")).click();System.out.println("Clicked OK");
+					   	
+				} catch (Exception e) {
+					// TODO: handle exception
+				}
+			   driver.findElement(By.xpath("//android.widget.Button[@text='LOG IN']")).click();System.out.println("Clicked Login");
 			    driver.findElement(By.id("com.clearchannel.iheartradio.controller:id/email")).sendKeys(User);System.out.println("Typed User");
 			    driver.findElement(By.id("com.clearchannel.iheartradio.controller:id/password")).sendKeys(Pass);System.out.println("Typed Pass");
 			    driver.findElement(By.xpath("//android.widget.Button[@text='Log In']")).click(); System.out.println("Log in Successful");
